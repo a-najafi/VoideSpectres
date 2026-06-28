@@ -1,0 +1,125 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a6e6ee4d30c4c1c4ea0a920d536d8f3b, type: 3}
+  m_Name: Storage
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: 1000000001, guid: a1b2c3d4e5f6478990abcdef12345678, type: 3}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: _archetypeId
+      Entry: 6
+      Data: 
+    - Name: Components
+      Entry: 7
+      Data: 0|System.Collections.Generic.List`1[[VoidSpectre.Core.Interfaces.ITrackableComponent,
+        VoidSpectre]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 3
+    - Name: 
+      Entry: 7
+      Data: 1|VoidSpectre.Gameplay.Physics.MassSourceComponent, VoidSpectre
+    - Name: _value
+      Entry: 4
+      Data: 4500
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 2|VoidSpectre.Gameplay.Physics.GeometryVolumesComponent, VoidSpectre
+    - Name: _volumes
+      Entry: 7
+      Data: 3|System.Collections.Generic.List`1[[VoidSpectre.Core.Math.Geometry.GeometryVolume,
+        VoidSpectre]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: VoidSpectre.Core.Math.Geometry.GeometryVolume, VoidSpectre
+    - Name: Shape
+      Entry: 3
+      Data: 0
+    - Name: LocalOffset
+      Entry: 7
+      Data: VoidSpectre.Core.Math.Float3, VoidSpectre
+    - Name: X
+      Entry: 4
+      Data: 0
+    - Name: Y
+      Entry: 4
+      Data: 0
+    - Name: Z
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: BoxSize
+      Entry: 7
+      Data: VoidSpectre.Core.Math.Float3, VoidSpectre
+    - Name: X
+      Entry: 4
+      Data: 12
+    - Name: Y
+      Entry: 4
+      Data: 12
+    - Name: Z
+      Entry: 4
+      Data: 12
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: CylinderRadius
+      Entry: 4
+      Data: 0.5
+    - Name: CylinderHeight
+      Entry: 4
+      Data: 1.5
+    - Name: SphereRadius
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 3|VoidSpectreUnity.View.EntityVisualComponent, VoidSpectreUnity
+    - Name: Prefab
+      Entry: 10
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 

@@ -1,0 +1,23 @@
+{
+    "name": "VoidSpectreUnity.Editor",
+    "rootNamespace": "VoidSpectreUnity.Editor",
+    "references": [
+        "GUID:8a33e39cb0b88cf43ace46c51cec4b4c",
+        "GUID:e5db0749bd570804691f5d97da7011a5"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [
+        "Sirenix.OdinInspector.Editor.dll",
+        "Sirenix.OdinInspector.Attributes.dll",
+        "Sirenix.Serialization.dll"
+    ],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

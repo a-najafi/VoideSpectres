@@ -1,0 +1,468 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a6e6ee4d30c4c1c4ea0a920d536d8f3b, type: 3}
+  m_Name: Ship
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: 11400000, guid: 4977750b27d828f428eb3a10ed795fa6, type: 2}
+    - {fileID: 11400000, guid: 142d3c6402b70464c88d51b853a46d9a, type: 2}
+    - {fileID: 11400000, guid: d834752b5b8fc444080c9248da70f61b, type: 2}
+    - {fileID: 11400000, guid: 0a864657247555c488a2b58167ead44d, type: 2}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: _archetypeId
+      Entry: 1
+      Data: 
+    - Name: Components
+      Entry: 7
+      Data: 0|System.Collections.Generic.List`1[[VoidSpectre.Core.Interfaces.ITrackableComponent,
+        VoidSpectre]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 7
+    - Name: 
+      Entry: 7
+      Data: 1|VoidSpectre.Gameplay.Ship.Config.ShipPartsConfigComponent, VoidSpectre
+    - Name: Parts
+      Entry: 7
+      Data: 2|System.Collections.Generic.List`1[[VoidSpectre.Gameplay.Ship.Config.ShipPartPlacement,
+        VoidSpectre]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 7
+    - Name: 
+      Entry: 7
+      Data: 3|VoidSpectre.Gameplay.Ship.Config.ShipPartPlacement, VoidSpectre
+    - Name: Archetype
+      Entry: 10
+      Data: 0
+    - Name: LocalPosition
+      Entry: 7
+      Data: VoidSpectre.Core.Math.Float3, VoidSpectre
+    - Name: X
+      Entry: 4
+      Data: 0
+    - Name: Y
+      Entry: 4
+      Data: 0
+    - Name: Z
+      Entry: 4
+      Data: 8
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: LocalOrientation
+      Entry: 7
+      Data: VoidSpectre.Core.Math.FloatQuaternion, VoidSpectre
+    - Name: X
+      Entry: 4
+      Data: 0
+    - Name: Y
+      Entry: 4
+      Data: 0
+    - Name: Z
+      Entry: 4
+      Data: 0
+    - Name: W
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 4|VoidSpectre.Gameplay.Ship.Config.ShipPartPlacement, VoidSpectre
+    - Name: Archetype
+      Entry: 10
+      Data: 1
+    - Name: LocalPosition
+      Entry: 7
+      Data: VoidSpectre.Core.Math.Float3, VoidSpectre
+    - Name: X
+      Entry: 4
+      Data: 0
+    - Name: Y
+      Entry: 4
+      Data: 0
+    - Name: Z
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: LocalOrientation
+      Entry: 7
+      Data: VoidSpectre.Core.Math.FloatQuaternion, VoidSpectre
+    - Name: X
+      Entry: 4
+      Data: 0
+    - Name: Y
+      Entry: 4
+      Data: 0
+    - Name: Z
+      Entry: 4
+      Data: 0
+    - Name: W
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 5|VoidSpectre.Gameplay.Ship.Config.ShipPartPlacement, VoidSpectre
+    - Name: Archetype
+      Entry: 10
+      Data: 2
+    - Name: LocalPosition
+      Entry: 7
+      Data: VoidSpectre.Core.Math.Float3, VoidSpectre
+    - Name: X
+      Entry: 4
+      Data: 0
+    - Name: Y
+      Entry: 4
+      Data: 0
+    - Name: Z
+      Entry: 4
+      Data: -11
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: LocalOrientation
+      Entry: 7
+      Data: VoidSpectre.Core.Math.FloatQuaternion, VoidSpectre
+    - Name: X
+      Entry: 4
+      Data: 0
+    - Name: Y
+      Entry: 4
+      Data: 0
+    - Name: Z
+      Entry: 4
+      Data: 0
+    - Name: W
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 6|VoidSpectre.Gameplay.Ship.Config.ShipPartPlacement, VoidSpectre
+    - Name: Archetype
+      Entry: 10
+      Data: 3
+    - Name: LocalPosition
+      Entry: 7
+      Data: VoidSpectre.Core.Math.Float3, VoidSpectre
+    - Name: X
+      Entry: 4
+      Data: 0
+    - Name: Y
+      Entry: 4
+      Data: 5.36
+    - Name: Z
+      Entry: 4
+      Data: -16.789
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: LocalOrientation
+      Entry: 7
+      Data: VoidSpectre.Core.Math.FloatQuaternion, VoidSpectre
+    - Name: X
+      Entry: 4
+      Data: 0
+    - Name: Y
+      Entry: 4
+      Data: 0
+    - Name: Z
+      Entry: 4
+      Data: 0
+    - Name: W
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 7|VoidSpectre.Gameplay.Ship.Config.ShipPartPlacement, VoidSpectre
+    - Name: Archetype
+      Entry: 10
+      Data: 3
+    - Name: LocalPosition
+      Entry: 7
+      Data: VoidSpectre.Core.Math.Float3, VoidSpectre
+    - Name: X
+      Entry: 4
+      Data: 0
+    - Name: Y
+      Entry: 4
+      Data: -5.36
+    - Name: Z
+      Entry: 4
+      Data: -16.789
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: LocalOrientation
+      Entry: 7
+      Data: VoidSpectre.Core.Math.FloatQuaternion, VoidSpectre
+    - Name: X
+      Entry: 4
+      Data: 0
+    - Name: Y
+      Entry: 4
+      Data: 0
+    - Name: Z
+      Entry: 4
+      Data: 0
+    - Name: W
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 8|VoidSpectre.Gameplay.Ship.Config.ShipPartPlacement, VoidSpectre
+    - Name: Archetype
+      Entry: 10
+      Data: 3
+    - Name: LocalPosition
+      Entry: 7
+      Data: VoidSpectre.Core.Math.Float3, VoidSpectre
+    - Name: X
+      Entry: 4
+      Data: 5.36
+    - Name: Y
+      Entry: 4
+      Data: 0
+    - Name: Z
+      Entry: 4
+      Data: -16.789
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: LocalOrientation
+      Entry: 7
+      Data: VoidSpectre.Core.Math.FloatQuaternion, VoidSpectre
+    - Name: X
+      Entry: 4
+      Data: 0
+    - Name: Y
+      Entry: 4
+      Data: 0
+    - Name: Z
+      Entry: 4
+      Data: 0
+    - Name: W
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 9|VoidSpectre.Gameplay.Ship.Config.ShipPartPlacement, VoidSpectre
+    - Name: Archetype
+      Entry: 10
+      Data: 3
+    - Name: LocalPosition
+      Entry: 7
+      Data: VoidSpectre.Core.Math.Float3, VoidSpectre
+    - Name: X
+      Entry: 4
+      Data: -5.36
+    - Name: Y
+      Entry: 4
+      Data: 0
+    - Name: Z
+      Entry: 4
+      Data: -16.789
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: LocalOrientation
+      Entry: 7
+      Data: VoidSpectre.Core.Math.FloatQuaternion, VoidSpectre
+    - Name: X
+      Entry: 4
+      Data: 0
+    - Name: Y
+      Entry: 4
+      Data: 0
+    - Name: Z
+      Entry: 4
+      Data: 0
+    - Name: W
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 10|VoidSpectre.Gameplay.Space.SpacePositionComponent, VoidSpectre
+    - Name: _value
+      Entry: 7
+      Data: VoidSpectre.Core.Math.Float3, VoidSpectre
+    - Name: X
+      Entry: 4
+      Data: 0
+    - Name: Y
+      Entry: 4
+      Data: 0
+    - Name: Z
+      Entry: 4
+      Data: 700
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 11|VoidSpectre.Gameplay.Space.SpaceOrientationComponent, VoidSpectre
+    - Name: _value
+      Entry: 7
+      Data: VoidSpectre.Core.Math.FloatQuaternion, VoidSpectre
+    - Name: X
+      Entry: 4
+      Data: 0
+    - Name: Y
+      Entry: 4
+      Data: 0
+    - Name: Z
+      Entry: 4
+      Data: 1
+    - Name: W
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 12|VoidSpectre.Gameplay.Space.SpaceMoveComponent, VoidSpectre
+    - Name: _direction
+      Entry: 7
+      Data: VoidSpectre.Core.Math.Float3, VoidSpectre
+    - Name: X
+      Entry: 4
+      Data: 0
+    - Name: Y
+      Entry: 4
+      Data: 0
+    - Name: Z
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: _speed
+      Entry: 4
+      Data: 0
+    - Name: _activeForces
+      Entry: 7
+      Data: 13|System.Collections.Generic.List`1[[VoidSpectre.Gameplay.Space.SpaceForce,
+        VoidSpectre]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 14|VoidSpectre.Gameplay.Demo.DemoShipHullTagComponent, VoidSpectre
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 15|VoidSpectre.Gameplay.Physics.GravityAffectedComponent, VoidSpectre
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 16|VoidSpectre.Gameplay.Ship.Navigation.ShipPilotCommandComponent, VoidSpectre
+    - Name: _mainThrust
+      Entry: 4
+      Data: 0
+    - Name: _pitch
+      Entry: 4
+      Data: 0
+    - Name: _yaw
+      Entry: 4
+      Data: 0
+    - Name: _roll
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 

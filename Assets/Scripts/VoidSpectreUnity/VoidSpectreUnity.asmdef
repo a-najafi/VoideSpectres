@@ -1,0 +1,19 @@
+{
+    "name": "VoidSpectreUnity",
+    "rootNamespace": "VoidSpectreUnity",
+    "references": [
+        "GUID:8a33e39cb0b88cf43ace46c51cec4b4c"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [
+        "Sirenix.Serialization.dll",
+        "Sirenix.OdinInspector.Attributes.dll"
+    ],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

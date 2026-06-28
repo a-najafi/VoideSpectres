@@ -66,16 +66,6 @@ namespace VoidSpectre.Gameplay.Demo
 
             sector.Components.Set(entity, new SpacePositionComponent(rockPosition));
 
-            if (sector.Components.TryGet(entity, out SpaceMoveComponent move))
-            {
-                move.SetVelocity(new Float3(-5f, 0f, 12f));
-                sector.Components.Set(entity, move);
-            }
-            else
-            {
-                VsLog.Warning($"[DemoHierarchySetup] Space rock entity {entity} has no SpaceMoveComponent.");
-            }
-
             return entity;
         }
 

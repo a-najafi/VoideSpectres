@@ -69,7 +69,7 @@ namespace VoidSpectre.Gameplay.Ship.Systems
                 {
                     VsLog.Warning(
                         $"[ShipAggregate] Ship {ship} has zero mass from parts. " +
-                        "Add MassSourceComponent to each part archetype so SpaceMovementSystem can integrate forces.");
+                        "Add MassSourceComponent to each part archetype so planning can use ship mass.");
                 }
 
                 return;

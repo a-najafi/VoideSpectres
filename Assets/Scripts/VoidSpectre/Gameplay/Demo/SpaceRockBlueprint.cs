@@ -12,25 +12,19 @@ namespace VoidSpectre.Gameplay.Demo
         public static ComponentStore.EntityId Build(
             SimulationContext sector,
             Float3 position,
-            Float3 initialVelocity,
             float massKg,
             float sphereRadius)
         {
             var entity = sector.CreateEntity();
             sector.Components.Set(entity, new SpacePositionComponent(position));
             sector.Components.Set(entity, new SpaceOrientationComponent(FloatQuaternion.Identity));
-
-            var move = new SpaceMoveComponent();
-            move.SetVelocity(initialVelocity);
-            sector.Components.Set(entity, move);
-
+            sector.Components.Set(entity, new SpaceMoveComponent());
             sector.Components.Set(entity, new MassComponent(massKg));
 
             var geometry = new GeometryVolumesComponent();
             geometry.AddVolume(GeometryVolume.Sphere(Float3.Zero, sphereRadius));
             sector.Components.Set(entity, geometry);
 
-            sector.Components.Set(entity, new GravityAffectedComponent());
             return entity;
         }
     }

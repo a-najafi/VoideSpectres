@@ -103,7 +103,7 @@ namespace VoidSpectre.Gameplay.Ship.Bootstrap
                 });
                 VsLog.Warning(
                     $"[ShipBootstrap] Ship {ship} had no SpaceMoveComponent; added default. " +
-                    "Movement forces will apply once mass is non-zero.");
+                    "Plan playback writes velocity via ShipPlanExecutorSystem.");
             }
         }
 
@@ -212,7 +212,7 @@ namespace VoidSpectre.Gameplay.Ship.Bootstrap
             }
 
             if (!context.Components.TryGet(ship, out SpaceMoveComponent _))
-                VsLog.Warning($"[ShipMovement] Ship {ship}: missing SpaceMoveComponent — forces cannot accumulate.");
+                VsLog.Warning($"[ShipMovement] Ship {ship}: missing SpaceMoveComponent — plan playback cannot set velocity.");
 
             if (!context.Components.TryGet(ship, out MassComponent shipMass) || shipMass.Value <= 0f)
             {
@@ -271,13 +271,13 @@ namespace VoidSpectre.Gameplay.Ship.Bootstrap
             {
                 VsLog.Warning(
                     $"[ShipMovement] Ship {ship}: {partsMissingMass} part(s) contribute no mass. " +
-                    "SpaceMovementSystem skips entities with zero mass.");
+                    "Mass aggregation and planning may be inaccurate.");
             }
 
             if (!ShipPartQueries.TryGetEngineFuel(context, ship, out _, out _))
             {
                 VsLog.Info(
-                    $"[ShipMovement] Ship {ship}: no engine fuel module. Thrusters may be cut off by FuelConsumptionSystem.");
+                    $"[ShipMovement] Ship {ship}: no engine fuel module. Planning sim may cut thrust when fuel is empty.");
             }
 
             var plant = ShipPlantModel.Build(context, ship);
